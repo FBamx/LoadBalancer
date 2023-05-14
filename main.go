@@ -81,7 +81,7 @@ func (lb *LoadBalancer) serveProxy(rw http.ResponseWriter, req *http.Request) {
 
 func main() {
 	servers := []Server{
-		newSimpleServer("https://www.fackbook.com"),
+		newSimpleServer("https://www.google.com"),
 		newSimpleServer("https://www.bing.com"),
 		newSimpleServer("https://www.baidu.com"),
 	}
